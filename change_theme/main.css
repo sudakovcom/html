@@ -1,0 +1,64 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --red: #ff0000;
+    --blue: #00a4ff;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+/*ul {*/
+/*    font-family: helvetica;*/
+/*}*/
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+/*#msg {*/
+/*    font-family: monospace;*/
+/*}*/
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--red);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--red);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    --fontColor: var(--green);
+    --bg: var(--blue);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 25px;
+    width: 100px;
+    border-radius: 10%;
+    border: none;
+    --fontColor: var(--blue);
+    background-color: var(--green);
+}
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
